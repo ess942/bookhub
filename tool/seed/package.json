@@ -1,0 +1,11 @@
+{
+  "name": "bookhub-firestore-seed",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "seed": "node import_firestore_seed.mjs"
+  },
+  "dependencies": {
+    "firebase-admin": "^13.6.0"
+  }
+}
